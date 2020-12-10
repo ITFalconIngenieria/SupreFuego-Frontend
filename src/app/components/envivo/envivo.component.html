@@ -4,7 +4,42 @@
             <h2>Pantalla en vivo</h2>
         </mat-card-header>
         <mat-card-content>
-            
+            <br>
+            <div>
+                <mat-form-field appearance="fill">
+                    <mat-label>Eliga un cuarto de bomba</mat-label>
+                    <mat-select>
+                      <mat-option value="option1">Cuarto de Bomba 1</mat-option>
+                      <mat-option value="option2">Cuarto de Bomba 1</mat-option>
+                      <mat-option value="option3">Cuarto de Bomba 1</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+            <mat-card>
+                <mat-card-content class="card-content">
+                    <div class="content" fxLayout="row wrap" fxLayoutGap="20px grid">
+                        <div
+                          fxFlex="15%"
+                          fxFlex.xs="100%"
+                          fxFlex.sm="33%"
+                          *ngFor=""
+                        >
+                          <mat-card  class="card mat-elevation-z3">
+                            <mat-card-header>
+                              <mat-card-title>  </mat-card-title>
+                              <mat-card-subtitle></mat-card-subtitle>
+                            </mat-card-header>
+                            <img mat-card-image src="" />
+                            <mat-card-content>
+                              <div class="custom">
+                               
+                              </div>
+                            </mat-card-content>
+                          </mat-card>
+                        </div>
+                      </div>
+                </mat-card-content>
+            </mat-card>
         </mat-card-content>
     </mat-card>
 </div>

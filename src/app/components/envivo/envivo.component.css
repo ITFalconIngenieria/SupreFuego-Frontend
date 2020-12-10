@@ -3,13 +3,15 @@
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
-    text-align: center;
 }
 
 .header {
-    text-align: center;
     color: black;
     background-color: whitesmoke;
     width: 100%;
     height: 2cm;
+}
+
+.card-content {
+    text-align: center;
 }
