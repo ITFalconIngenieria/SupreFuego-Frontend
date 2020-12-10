@@ -1,0 +1,47 @@
+<div>
+    <br>
+    <mat-toolbar class="toolbar" color="primary">
+        <mat-toolbar-row>
+            <br>
+            <span class="example-fill-remaining-space"></span>
+            <span class="align-center"></span>
+            <span class="example-spacer"></span>
+            <img class="toolbar-img" src="assets/fuego.png">
+            <div>
+                <button mat-button routerLink="/inicio">Inicio</button>
+                <button mat-button [matMenuTriggerFor]="menu">Mantenimientos</button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item routerLink="/grupoUsuario" >Grupo de Usuarios</button>
+                    <button mat-menu-item routerLink="/cuartoBomba">Cuarto de bomba</button>
+                    <button mat-menu-item routerLink="/tanquesAgua">Tanque de Agua</button>
+                    <button mat-menu-item routerLink="/tipoMotor">Tipo de Motor</button>
+                    <button mat-menu-item routerLink="/setpoint">SetPoints</button>
+                    <button mat-menu-item routerLink="/empresas">Empresas</button>
+                    <button mat-menu-item routerLink="/usuarios">Usuarios</button>
+                    <button mat-menu-item routerLink="/unidades">Unidades</button>
+                    <button mat-menu-item routerLink="/senales">Señales</button>
+                </mat-menu>
+                <button mat-button routerLink="/envivo">En vivo</button>
+                <button mat-button [matMenuTriggerFor]="menu2">Reportes</button>
+                <mat-menu #menu2="matMenu">
+                    <button mat-menu-item>Reporte 1</button>
+                    <button mat-menu-item>Reporte 2</button>
+                    <button mat-menu-item>Reporte 3</button>
+                    <button mat-menu-item>Reporte 4</button>
+                </mat-menu>
+                <button mat-button [matMenuTriggerFor]="menu3">Ayuda</button>
+                <mat-menu #menu3="matMenu">
+                    <button mat-menu-item>Manual de Usuario</button>
+                    <button mat-menu-item>Acerca de</button>
+                </mat-menu>
+                <button mat-button routerLink="/login">Cerrar Sesión</button>
+            </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</div>
+<br>
+<router-outlet></router-outlet>
+<br>
+<br>
+<br>
+<br>

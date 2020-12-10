@@ -1,0 +1,28 @@
+.login-card {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-button {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.login-form-field {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.imagen {
+    margin-left: 10%;
+    align-self: center;
+}
+
+.register-div {
+    margin-left: 30%;
+}

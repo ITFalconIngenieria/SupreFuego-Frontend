@@ -1,0 +1,59 @@
+.main-card {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 2cm;
+}
+
+.long-form-field {
+    width: 100%;
+    color: black;
+}
+
+.header-card {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sub-div{
+    background-color: darkcyan;
+    height: 13cm;
+    width: 14cm;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main-div{
+    background-color: whitesmoke;
+    height: 16cm;
+}
+
+
+th,td {
+    width: 5%;
+    text-align: left;
+}
+
+.sub-card {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+} 
+
+.table {
+    width: 100%;
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "superfuego-frontend"
+    }
+  },
+  "defaultProject": "superfuego-frontend",
+  "cli": {
+    "analytics": "21f84e90-bc65-4283-b2f9-df4708a84c11"
+  }
 }

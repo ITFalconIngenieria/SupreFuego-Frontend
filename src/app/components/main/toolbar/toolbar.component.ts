@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-sidenav',
+  templateUrl: './toolbar.component.html',
+  styleUrls: ['./toolbar.component.css']
+})
+export class ToolbarComponent implements OnInit {
+
+  showFiller = false;
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
